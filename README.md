@@ -1,7 +1,7 @@
 ## ClangStructures
 
-Implementations of data structures in C. API structures inspired by _The C Programming Language_ by K&R and Columbia's COMS-3157 systems programming course.
+Implementations of data structures in C. API design inspired by _The C Programming Language_ by K&R and Columbia's COMS-3157 systems programming course. Data structures capable of storing and operating on any data-type.
 
 Includes:
-- `linkedlist.c`
-- `binarytree.c`
+- `linkedlist`, a singly linked list with generic stack-like support for pushing, popping, removal, traversal and more.
+- `binarytree`, a binary search tree with generic support for insertion and traversal.
