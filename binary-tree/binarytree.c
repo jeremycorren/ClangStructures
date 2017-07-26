@@ -28,18 +28,6 @@ struct Node *_insert(struct Node *node, void *data) {
     return node;
 }
 
-/* Remove node with min data from tree */
-void remove_min(struct Tree *tree) {
-    tree->root = _remove_min(tree->root);
-}
-
-/* Recursively remove node with min data from tree */
-struct Node *_remove_min(struct Node *node) {
-    if (node->left == NULL) return node->right;
-    node->left = _remove_min(node->left);
-    return node;
-}
-
 /* Traverse tree */
 void traverse_tree(struct Tree *tree, void (*func)(void *)) {
     _traverse_tree(tree->root, func); 

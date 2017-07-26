@@ -16,13 +16,7 @@ int main() {
     insert(&tree, "alpha");
     insert(&tree, "gamma");
     traverse_tree(&tree, (void (*)(void *))(print_data));
-    printf("\n"); 
-
-    /* Test remove_min */
-    printf("%s\n", "Testing remove_min: ");
-    remove_min(&tree);
-    traverse_tree(&tree, (void (*)(void *))(print_data));
     printf("\n");
-   
+  
     return 0;
 }
