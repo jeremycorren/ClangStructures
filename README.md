@@ -1,6 +1,6 @@
 ## ClangStructures
 
-Implementations of data structures in C. API design inspired by _The C Programming Language_ by K&R and Columbia's COMS-3157 systems programming course. Data structures are type-agnostic, capable of storing and operating on any type.
+Implementations of data structures in C. API design inspired by _The C Programming Language_ by K&R and Columbia's COMS-3157 systems programming course.
 
 Includes:
 - `linked-list`: a singly-linked list with generic support for insertion, removal, traversal, reversal, and more.
